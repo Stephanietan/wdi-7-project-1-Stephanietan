@@ -1,0 +1,82 @@
+/*#container {
+  background-image: url(assets/background.png);
+  background-size: 100%;
+  width: 900px;
+  height: 676px;
+}*/
+
+.batSprite {
+  animation-name: bat;
+  animation: bat .8s steps(5) infinite;
+}
+
+@keyframes bat {
+  from { background-position: 0px;}
+  to { background-position: -1000px;}
+}
+
+/*#flyingBat {
+  animation-name: bat;
+  animation: bat .8s steps(5) infinite;
+}
+
+@keyframes batTwo {
+  from { background-position: 0px;}
+  to { background-position: -1000px;}
+}*/
+
+/*#flyingBatTwo {
+  animation-name: batTwo;
+  animation: batTwo .8s steps(5) infinite;
+}
+
+@keyframes batTwo {
+  from { background-position: 0px;}
+  to { background-position: -1000px;}
+}*/
+
+/*#flyingBatThree {
+  animation-name: batTwo;
+  animation: batTwo .8s steps(5) infinite;
+}
+
+@keyframes batThree {
+  from { background-position: 0px;}
+  to { background-position: -1000px;}
+}*/
+
+#batDeath {
+  /*width: 192px;
+  height: 127px;
+  background-image: url(assets/batDeath.png);*/
+  animation-name: batDeath;
+  animation: batDeath 1.4s steps(7) 1;
+}
+
+@keyframes batDeath {
+  from { background-position: 0px;}
+  to { background-position: -1100px;}
+}
+
+#timer,
+#score {
+  height: 50px;
+  color: #fff;
+  font-size: 36px;
+  font-family: impact;
+  display: inline-block;
+  padding: 0px 5px;
+}
+
+#score {
+  width: 250px;
+}
+
+#timer {
+  width: 200px;
+  float: right;
+}
+
+img {
+  position: absolute;
+}
